@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alignment</title>
+    <style>
+        *{
+            box-sizing: border-box;
+            
+        }
+        
+        .container{
+            border: 4px solid rgb(18, 10, 238);
+            background-color: pink;
+            margin: auto;
+            margin-top:10px;
+            width: 600px;
+        }
+           
+        .item{
+             border: 2px solid palevioletred;
+             background-color: lightgray;
+             margin : 7px 7px;
+             padding : 25px 25px;
+
+        }
+
+        #fruit{
+             float: left;
+             width: 50%;
+             clear:both;
+
+
+        }
+
+        #Computer{
+            float: right;
+           width: 42%;
+           margin-left: 1px;
+            
+
+        }
+
+        #Book{
+            width: 50%;
+            clear: left;
+            margin-bottom: 20px;
+        }
+
+        h4 , p{
+            text-align: left;
+        }
+        h1{
+           text-align: center;
+        }
+        
+        
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>This is a box Modeling</h1>
+        <div id="fruit" class="item">
+            <h4>Fruits</h4>
+            <p id="fruitpara" class="para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam, suscipit minus. Voluptatibus et quo odit dicta aspernatur fugiat distinctio quidem dolores repudiandae. Harum, voluptate, minima doloremque, consequatur quam autem illum iste unde adipisci ratione mollitia?
+            </p>
+
+        </div>
+
+        <div id="Computer" class="item">
+            <h4>Computer</h4>
+            <p id="Computerpara" class="para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam, suscipit minus. Voluptatibus et quo odit dicta aspernatur fugiat distinctio quidem dolores repudiandae. Harum, voluptate, minima doloremque, consequatur quam autem illum iste unde adipisci ratione mollitia?
+            </p>
+
+        </div>
+
+        <div id="Book" class="item">
+            <h4>Book</h4>
+            <p id="Bookpara" class="para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam, suscipit minus. Voluptatibus et quo odit dicta aspernatur fugiat distinctio quidem dolores repudiandae. Harum, voluptate, minima doloremque, consequatur quam autem illum iste unde adipisci ratione mollitia?
+            </p>
+
+        </div>
+    </div>
+</body>
+</html>
